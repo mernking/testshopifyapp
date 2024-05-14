@@ -3,7 +3,7 @@
 client_id = "b9e4c20f3b7601e9d81bccf11dee0d1e"
 name = "lcmass"
 handle = "lcmass-1"
-application_url = "https://suse-gives-tie-cutting.trycloudflare.com"
+application_url = "https://kathy-appendix-visiting-ata.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "read_discounts,read_inventory,read_metaobjects,read_orders,read_themes
 
 [auth]
 redirect_urls = [
-  "https://suse-gives-tie-cutting.trycloudflare.com/auth/callback",
-  "https://suse-gives-tie-cutting.trycloudflare.com/auth/shopify/callback",
-  "https://suse-gives-tie-cutting.trycloudflare.com/api/auth/callback"
+  "https://kathy-appendix-visiting-ata.trycloudflare.com/auth/callback",
+  "https://kathy-appendix-visiting-ata.trycloudflare.com/auth/shopify/callback",
+  "https://kathy-appendix-visiting-ata.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
