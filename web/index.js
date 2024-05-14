@@ -39,7 +39,6 @@ app.use("/api/*", shopify.validateAuthenticatedSession());
 
 app.use(express.json());
 
-
 app.get("/api/products", async (_req, res) => {
   const products = await shopify.api.rest.Product.all({
     session: res.locals.shopify.session,
