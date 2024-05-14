@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "84a65a5fb353831ee86d6e400fb2d69e"
+name = "jackex"
+handle = "jackex"
+application_url = "https://governor-magnetic-covered-follows.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "concludejs.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_discounts,read_inventory,read_metaobjects,read_orders,read_themes,write_discounts,write_inventory,write_metaobjects,write_orders,write_products,write_themes"
+
+[auth]
+redirect_urls = [
+  "https://governor-magnetic-covered-follows.trycloudflare.com/auth/callback",
+  "https://governor-magnetic-covered-follows.trycloudflare.com/auth/shopify/callback",
+  "https://governor-magnetic-covered-follows.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false

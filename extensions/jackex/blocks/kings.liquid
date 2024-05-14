@@ -1,0 +1,23 @@
+<section>
+    <div class="worky">
+        <p>{{ block.settings.product.title }}</p>
+        <p>{{ block.settings.product.description  }}</p>
+        <p>{{ block.settings.product.price |  money_with_currency }}</p>
+    </div>
+</section>
+
+
+
+{% schema %}
+  {
+    "name": "kings", 
+      "target": "section",
+    "settings": [
+      {
+        "type": "product",
+        "id": "product",
+        "label": "choose product"
+      }
+    ]
+  }
+{% endschema %}
